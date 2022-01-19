@@ -1,8 +1,8 @@
-# api-cities-heroku - Thanks, DIO.
+# Api Cities Heroku - Thanks, DIO.
 
 Requirements
 
-    Linux
+    MacOS
     Git
     Java 8
     Docker
@@ -41,4 +41,5 @@ psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
 psql -h localhost -U postgres_user_city cities
 
 CREATE EXTENSION cube; 
+
 CREATE EXTENSION earthdistance;
